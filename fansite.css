@@ -1,0 +1,426 @@
+/* Balises générales */
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+
+a {
+    text-decoration: none;
+    color: darkred;
+}
+
+a:hover {
+    color: white;
+}
+
+
+/*HEADER Fansite*/
+
+header {
+    height: 15vh;
+    width: 100%;
+    background: linear-gradient(to right, #272624 0%, #000066 100%);
+}
+
+.nav_header {
+    padding-left: 5%;
+    width: 95%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.header_logo_dimension {
+    height: 150px;
+    width: 200px;
+    padding-left: 1%;
+    padding-right: 10%;
+}
+
+.bordure_case {
+    border-left: 1px solid black;
+    padding: 1%;
+}
+
+
+/*MAIN Fansite*/
+
+
+/*.main_fansite {
+    background: no-repeat url('images/background-image_Fansite.jpg');
+    height: 200vh;
+    width: 100%;
+    background-position-x: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}*/
+
+.main_fansite {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img_dimension {
+    height: 100%;
+    width: 100%;
+}
+
+#mise_en_page_presentation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+    background-color: whitesmoke;
+}
+
+.section_presentation_groupe {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    height: 40%;
+    justify-content: space-between;
+}
+
+.section_presentation_groupe:nth-child(2) {
+    display: flex;
+    width: 60%;
+    height: 40%;
+    justify-content: center;
+}
+
+.article_presentation_groupe {
+    background: linear-gradient(to left, #272624 0%, #000066 100%);
+    padding: 2%;
+    max-width: 45%;
+    min-height: 25%;
+    text-align: justify;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+
+/*FOOTER Fansite*/
+
+footer {
+    height: 15vh;
+    width: 100%;
+    background: linear-gradient(to left, #272624 0%, #000066 100%);
+    align-content: center;
+}
+
+@font-face {
+    font-family: 'reseaux';
+    src: url('font/reseaux/Social_Shapes.ttf');
+}
+
+.reseaux {
+    font-family: 'reseaux';
+    font-size: 40px;
+    color: white;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+}
+
+.nav_footer {
+    padding-left: 5%;
+    width: 95%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.article_footer_reseaux {
+    width: 20%;
+}
+
+
+/*FIN Fansite*/
+
+
+/*Fansite3*/
+
+
+/*Header same as Fansite*/
+
+
+/*Main Fansite 3*/
+
+#main_fansite3 {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: url('images/fansite3_background');
+    align-items: center;
+}
+
+.titre_categorie {
+    text-align: center;
+    font-size: 50px;
+    color: whitesmoke;
+    margin-bottom: 3%;
+}
+
+#mise_en_page {
+    width: 80%;
+    height: 80;
+    background-color: rgba(10, 9, 9, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fansite3_article {
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    width: 80%;
+    background: rgba(48, 255, 186, 0.2);
+    color: white;
+    align-items: center;
+    padding: 1%;
+    margin: 2%;
+}
+
+.fansite3_img_article {
+    height: 100px;
+    width: 100px;
+}
+
+.p_date {
+    color: goldenrod;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+
+/*Footer same as Fansite*/
+
+
+/*Fansite5*/
+
+
+/*Header Fansite5 same as Fansite*/
+
+
+/*Main Fansite5*/
+
+#main_fansite5 {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.mise_en_page {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    height: 80%;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.element {
+    padding: 20px;
+    background-color: lightslategray;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    Width: 20%;
+    Height: 25%;
+    border-radius: 1em;
+}
+
+.dimension_img_element {
+    height: 120px;
+    width: 120px;
+}
+
+.p_nom_album {
+    color: darkred;
+    font-weight: bold;
+}
+
+
+/*Bouton Hover*/
+
+.btn-grad_fansite5 {
+    background-image: linear-gradient(to right, #16222A 0%, #3A6073 51%, #16222A 100%)
+}
+
+.btn-grad_fansite5 {
+    margin: 10px;
+    padding: 15px 25px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+}
+
+.btn-grad_fansite5:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+.mise_en_page_ref {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    height: 80%;
+    justify-content: space-around;
+}
+
+.ul_element {
+    width: 40%;
+}
+
+
+/*Footer Fansite5 same as Fansite*/
+
+
+/*Fin Fansite5*/
+
+
+/*Fansite2*/
+
+.main_fansite2 {
+    background: url('images/IM_fansite_2.jpg');
+    background-attachment: fixed;
+    background-position-x: center;
+}
+
+.titre_presentation_fansite2 {
+    font-style: italic;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.titre_categorie {
+    text-align: center;
+    font-size: 50px;
+    color: whitesmoke;
+    margin-bottom: 3%;
+}
+
+#bloc_presentation_fansite2 {
+    color: white;
+    text-align: justify;
+}
+
+#bloc_opacity_fansite2 {
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 1px;
+    padding-bottom: 10px;
+    margin-bottom: 2%;
+}
+
+.bloc_paragraphe_fansite2 {
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 5%;
+}
+
+.alinea_p {
+    text-indent: 40px;
+}
+
+
+/*FIN Fansite2*/
+
+
+/*Début Fansite4*/
+
+.main_fansite4 {
+    background-image: url('images/IM_fansite_7.jpg');
+    background-attachment: fixed;
+    background-position-x: center;
+}
+
+.box_fansite4 {
+    border-bottom: 1px solid gray;
+    margin-right: 65%;
+}
+
+#article_fansite4 {
+    margin-top: 2%;
+}
+
+.box_flex_fansite4 {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.puce_fansite4 {
+    list-style: none;
+    font-size: 25px;
+}
+
+.border1_fansite4 {
+    margin-right: 25px;
+}
+
+.border2_fansite4 {
+    border-left: 1px solid grey;
+}
+
+.date_fansite4 {
+    text-align: right;
+    font-size: 20px;
+}
+
+.jour_fansite4 {
+    text-align: right;
+    color: red;
+    font-size: 35px;
+}
+
+.bouton_billet_fansite4 {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: black;
+    text-shadow: 1px 1px 1px grey;
+    border-radius: 10px;
+    background-color: #009900;
+    margin-left: 35%;
+    margin-top: -10%;
+}
+
+.bouton_billet_fansite4:hover {
+    background-color: #00cc00;
+}
