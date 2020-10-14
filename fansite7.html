@@ -10,18 +10,54 @@
 <body>
     <header>
         <nav class="nav_header">
-            <img class="header_logo_dimension" src="images/logo_header.png">
+            <a href="fansite.html"><img class="header_logo_dimension" src="images/logo_header.png" alt="logo_ironmaiden"></a>
             <!--griser la partie sur laquelle on se trouve -->
             <a href="fansite2.html" class="bordure_case">Présentation du groupe</a>
             <a href="fansite3.html" class="bordure_case">Actualité</a>
             <a href="fansite4.html" class="bordure_case">Tournée</a>
             <a href="fansite5.html" class="bordure_case">Réalisation</a>
-            <a href="fansite6.html" class="bordure_case">Forum (construction)</a>
+            <a href="fansite6.html" class="bordure_case">Forum</a>
             <a href="fansite7.html" class="bordure_case">Contact</a>
         </nav>
     </header>
-    <main>
-
+    <main id="main_fansite7">
+        <h1 id="titre_fansite7">Des idées d'amélioration ?</h1>
+        <article id="formulaire">
+            <form>
+                <table>
+                    <tr>
+                        <td>
+                            <div class="input_margin_fansite7">
+                                <label for="nom">Nom*</label><br/>
+                                <input type="text" id="nom" required></div>
+                        </td>
+                        <td>
+                            <div class="input_margin_fansite7">
+                                <label for="prenom">Votre prénom*</label><br/>
+                                <input type="text" id="prenom" required></div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <div class="bloc_center_fansite7">
+                                <label for="mail">Votre email*</label><br/>
+                                <input type="email" id="mail" required></div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <div id="mess">
+                                <label for="message">N'hésitez pas à nous aider !*</label><br>
+                                <textarea id="message" name="message" cols="40" rows="5" required></textarea>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+                <section id="buttom">
+                    <input id="buttom" type="submit" value="Envoyez">
+                </section>
+            </form>
+        </article>
     </main>
     <footer>
         <nav class="nav_footer">

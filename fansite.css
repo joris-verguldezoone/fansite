@@ -17,6 +17,25 @@ a:hover {
     color: white;
 }
 
+@font-face {
+    font-family: 'font/font_purgatory.ttf';
+    src: url(font/font_purgatory.ttf);
+}
+
+@font-face {
+    font-family: 'font/fear_dark.ttf';
+    src: url(font/fear_dark.ttf);
+}
+
+@font-face {
+    font-family: 'font/soundhouse.TTF';
+    src: url(font/soundhouse.TTF);
+}
+
+.titre_categorie {
+    font-family: 'font/font_purgatory.ttf';
+}
+
 
 /*HEADER Fansite*/
 
@@ -110,6 +129,23 @@ header {
     display: flex;
     align-items: center;
     color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.positionnement_fleche {
+    display: flex;
+    align-items: center;
+    height: 10vh
+}
+
+.positionnement_fleche24 {
+    text-align: center;
+    height: 10vh
+}
+
+.dimension_fleche {
+    height: 50px;
+    width: 50px;
 }
 
 
@@ -167,14 +203,8 @@ footer {
     flex-direction: column;
     justify-content: center;
     background: url('images/fansite3_background');
+    background-attachment: fixed;
     align-items: center;
-}
-
-.titre_categorie {
-    text-align: center;
-    font-size: 50px;
-    color: whitesmoke;
-    margin-bottom: 3%;
 }
 
 #mise_en_page {
@@ -192,7 +222,7 @@ footer {
     flex-direction: row;
     height: 100px;
     width: 80%;
-    background: rgba(48, 255, 186, 0.2);
+    background: rgba(10, 9, 9, 0.5);
     color: white;
     align-items: center;
     padding: 1%;
@@ -206,8 +236,8 @@ footer {
 
 .p_date {
     color: goldenrod;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
     font-weight: bold;
     text-decoration: underline;
 }
@@ -223,6 +253,12 @@ footer {
 
 
 /*Main Fansite5*/
+
+h2 {
+    font-family: 'font/soundhouse.TTF';
+    color: red;
+    text-decoration: underline;
+}
 
 #main_fansite5 {
     display: flex;
@@ -264,6 +300,7 @@ footer {
 .p_nom_album {
     color: darkred;
     font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -321,15 +358,18 @@ footer {
 }
 
 .titre_presentation_fansite2 {
-    font-style: italic;
+    font-family: 'font/soundhouse.TTF';
+    color: white;
     text-align: center;
     text-decoration: underline;
+    font-size: 30px;
 }
 
 .titre_categorie {
     text-align: center;
     font-size: 50px;
-    color: whitesmoke;
+    color: red;
+    text-shadow: 2px 2px 10px black;
     margin-bottom: 3%;
 }
 
@@ -355,6 +395,7 @@ footer {
 
 .alinea_p {
     text-indent: 40px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -423,4 +464,64 @@ footer {
 
 .bouton_billet_fansite4:hover {
     background-color: #00cc00;
+}
+
+
+/*Fansite7 - Formulaire*/
+
+#main_fansite7 {
+    background-image: url(images/IM_fansite_8.jpg);
+    height: 70vh;
+}
+
+#titre_fansite7 {
+    margin-top: 5%;
+    font-size: 35px;
+    margin-left: 86px;
+}
+
+#formulaire {
+    color: black;
+    margin-top: 3%;
+}
+
+.bloc_center_fansite7 {
+    margin-top: 20px;
+}
+
+input {
+    margin-top: 5px;
+}
+
+input#mail {
+    width: 55%;
+}
+
+#mess {
+    text-align: center;
+    margin-top: 20px;
+}
+
+textarea {
+    margin-top: 5px;
+}
+
+form {
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-right: 68%;
+    margin-left: 5%;
+    text-align: center;
+    padding-left: 38px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 50px;
+}
+
+#buttom {
+    margin-left: 35%;
+}
+
+#titre_fansite7 {
+    font-family: 'font/fear_dark.ttf';
+    color: red;
 }
