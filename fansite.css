@@ -561,8 +561,9 @@ form {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    height: 5vh;
+    height: 3vh;
     width: 80%;
+    margin-bottom: 10px;
     text-align: center;
 }
 
